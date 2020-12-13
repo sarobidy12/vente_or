@@ -1,0 +1,40 @@
+.img_cin{
+    position: relative;
+    width: 50%;
+    left: 25%;
+    cursor: pointer;
+    transition: 600ms;
+}
+
+.img_cin:hover{
+    transform: scale(0.95);
+}
+
+.img_cin:active{
+    transform: scale(0.95);
+
+}
+
+.alert-danger{
+    width: 100%;
+    padding: 2vh;
+    background-color: rgba(188, 143, 143, 0.664);
+    color: white;
+    margin: 1vh 0;
+    border-radius: 1vh;
+}
+.alert-success{
+    width: 100%;
+    padding: 2vh;
+    background-color: rgba(0, 128, 0, 0.397);
+    color: white;
+    margin: 1vh 0;
+    border-radius: 1vh;
+}
+.connexion{
+    width: 40%;
+    margin: 0 auto;
+}
+.connexion input{
+    margin: 1vh 0;
+}
